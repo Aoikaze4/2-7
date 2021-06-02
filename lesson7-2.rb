@@ -11,16 +11,17 @@ while i <= counter do
   first_num = gets(chomp:true).to_i
   second_num = gets(chomp:true).to_i
 
-
+=begin
   add = first_num + second_num
   minus = first_num - second_num
   multiply = first_num * second_num
   divide = first_num / second_num
+=end
 
-  puts "#{first_num}+#{second_num}=#{add}"
-  puts "#{first_num}-#{second_num}=#{minus}"
-  puts "#{first_num}*#{second_num}=#{multiply}"
-  puts "#{first_num}/#{second_num}=#{divide}"
+  puts "#{first_num}+#{second_num}=#{first_num + second_num}"
+  puts "#{first_num}-#{second_num}=#{first_num - second_num}"
+  puts "#{first_num}*#{second_num}=#{first_num * second_num}"
+  puts "#{first_num}/#{second_num}=#{first_num / second_num}"
   i += 1
 
 end
